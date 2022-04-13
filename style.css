@@ -152,12 +152,15 @@ img {
 .sidebar {
   background-color: var(--sidebar-color);
   width: 370px;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
   color: var(--sidebar-text-color);
 }
+/* .img-wraper {
+  width: ;
+} */
 .my-contacts,
 .skills-section {
-  margin: 40px 0 0 40px;
+  margin: 30px 0 0 30px;
 }
 .sidebar-section-title {
   font-weight: bold;
@@ -174,16 +177,19 @@ img {
 .contacts-link {
   display: block;
   text-decoration: none;
-
   font-size: 14px;
   line-height: 24px;
-  color: var(--contacts__link-color);
+  color: var(--sidebar-text-color);
 }
 .contacts-link:hover,
 .contacts-link:focus {
   font-size: 15px;
+  color: var(--contacts__link-color);
 }
-
+.contacts-icon {
+  margin-right: 4px;
+  fill: var(--color-acsent);
+}
 /* tech/soft skills section */
 .tech-skills-lists {
   padding: 0 0 0 17px;
@@ -191,7 +197,7 @@ img {
   line-height: 24px;
 }
 .skills-item {
-  color: var(--main-text-color);
+  color: var(--color-acsent);
   font-weight: bold;
   font-size: 14px;
   line-height: 24px;
