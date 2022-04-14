@@ -7,10 +7,11 @@
   --sidebar-text-color: #fff;
 }
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: normal;
   background-color: rgb(228, 231, 228);
+  margin: 0;
 }
 
 ul,
@@ -72,7 +73,7 @@ img {
   margin-bottom: 50px;
 }
 .my-projects-list {
-  padding: 0 0 0 20px;
+  padding: 0 20px;
 }
 .my-projects-item {
   font-size: 14px;
@@ -81,23 +82,26 @@ img {
 .my-projects-item + .my-projects-item {
   margin-top: 10px;
 }
-.my-projects-text {
-  font-weight: bold;
+.my-projects-description {
   display: flex;
   justify-content: space-between;
   min-width: 100%;
-}
-
-.my-projects-link {
   font-weight: normal;
+}
+.my-projects-link {
+  font-weight: bold;
   color: var(--color-acsent);
 }
 .my-projects-link:hover,
 .my-projects-link:focus {
   font-size: 15px;
 }
-.my-projects-description {
+.my-projects-text {
+  font-weight: normal;
   margin: 0;
+}
+.my-projects-text_item {
+  font-weight: bold;
 }
 /* my-work-experience/education */
 .my-work-experience {
@@ -160,10 +164,10 @@ img {
 } */
 .my-contacts,
 .skills-section {
+  font-weight: bold;
   margin: 30px 0 0 30px;
 }
 .sidebar-section-title {
-  font-weight: bold;
   font-size: 22px;
   line-height: 27px;
   margin-bottom: 10px;
@@ -198,7 +202,7 @@ img {
 }
 .skills-item {
   color: var(--color-acsent);
-  font-weight: bold;
+  /* font-weight: bold; */
   font-size: 14px;
   line-height: 24px;
 }
